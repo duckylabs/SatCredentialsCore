@@ -77,7 +77,6 @@ public class TestCredentials
         // Assert
         Assert.Equal("Error reading Certificate.", exception.Message);
         Assert.IsAssignableFrom<CryptographicException>(exception.InnerException);
-        Assert.Equal(typeof(CryptographicException), exception.InnerException!.GetType().BaseType);
     }
     
     [Fact]

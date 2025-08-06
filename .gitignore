@@ -1,0 +1,79 @@
+## .NET build artifacts
+bin/
+obj/
+out/
+artifacts/
+
+## Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.sln.docstates
+
+## JetBrains Rider (IntelliJ IDEA)
+.idea/
+*.iml
+.idea_modules/
+.idea_modules.xml
+*.ipr
+*.iws
+
+## Build results
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.cache
+*.log
+*.ilk
+*.idb
+
+## NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Packages folder
+packages/
+*.nuget.props
+*.nuget.targets
+
+## Azure
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishProfiles/
+
+## macOS / Linux system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+## Rider caches
+.idea/
+*.sln.iml
+
+## Coverage reports
+*.coverage
+*.coveragexml
+TestResult.xml
+TestResults/
+coverage/
+*.trx
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## DotCover
+*.dotCover
+
+## Others
+*.swp
+*.swo
